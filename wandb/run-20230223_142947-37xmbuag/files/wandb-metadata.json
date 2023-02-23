@@ -1,0 +1,41 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.9.6",
+    "heartbeatAt": "2023-02-23T08:59:54.223071",
+    "startedAt": "2023-02-23T08:59:47.326954",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/Jenil02/CS6910-Assignment1.git",
+        "commit": "f1c3c05aa6666e76cc7731cd817faa644737d715"
+    },
+    "email": "jenilsheth2002.js@gmail.com",
+    "root": "C:/Users/jenil/OneDrive - smail.iitm.ac.in/Documents/CS6910-DL",
+    "host": "LAPTOP-GMI12D6S",
+    "username": "jenil",
+    "executable": "c:\\Users\\jenil\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 998.0,
+        "min": 0.0,
+        "max": 1498.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 998.0,
+            "min": 0.0,
+            "max": 1498.0
+        }
+    ],
+    "disk": {
+        "total": 237.22753524780273,
+        "used": 211.7350082397461
+    },
+    "memory": {
+        "total": 7.781211853027344
+    }
+}

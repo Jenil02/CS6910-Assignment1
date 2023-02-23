@@ -1,0 +1,64 @@
+2023-02-18 10:22:29,604 INFO    MainThread:21860 [wandb_setup.py:_flush():68] Configure stats pid to 21860
+2023-02-18 10:22:29,609 INFO    MainThread:21860 [wandb_setup.py:_flush():68] Loading settings from C:\Users\jenil\.config\wandb\settings
+2023-02-18 10:22:29,609 INFO    MainThread:21860 [wandb_setup.py:_flush():68] Loading settings from c:\Users\jenil\OneDrive - smail.iitm.ac.in\Documents\CS6910-DL\wandb\settings
+2023-02-18 10:22:29,609 INFO    MainThread:21860 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-02-18 10:22:29,609 INFO    MainThread:21860 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-02-18 10:22:29,609 ERROR   MainThread:21860 [wandb_setup.py:_flush():68] error
+Traceback (most recent call last):
+  File "c:\Users\jenil\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\wandb_init.py", line 1129, in init
+    wi.setup(kwargs)
+  File "c:\Users\jenil\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\wandb_init.py", line 274, in setup
+    wandb_login._login(
+  File "c:\Users\jenil\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\wandb_login.py", line 298, in _login
+    wlogin.prompt_api_key()
+  File "c:\Users\jenil\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\wandb_login.py", line 221, in prompt_api_key
+    key, status = self._prompt_api_key()
+  File "c:\Users\jenil\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\wandb_login.py", line 201, in _prompt_api_key
+    key = apikey.prompt_api_key(
+  File "c:\Users\jenil\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\lib\apikey.py", line 134, in prompt_api_key
+    key = input_callback(api_ask).strip()
+  File "c:\Users\jenil\AppData\Local\Programs\Python\Python39\lib\site-packages\click\termui.py", line 166, in prompt
+    value = prompt_func(prompt)
+  File "c:\Users\jenil\AppData\Local\Programs\Python\Python39\lib\site-packages\click\termui.py", line 149, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+2023-02-18 10:22:29,610 INFO    MainThread:21860 [wandb_setup.py:_flush():68] Applying login settings: {'api_key': '***REDACTED***'}
+2023-02-18 10:22:29,611 INFO    MainThread:21860 [wandb_init.py:_log_setup():492] Logging user logs to c:\Users\jenil\OneDrive - smail.iitm.ac.in\Documents\CS6910-DL\wandb\run-20230218_102229-e0dr0bzo\logs\debug.log
+2023-02-18 10:22:29,611 INFO    MainThread:21860 [wandb_init.py:_log_setup():493] Logging internal logs to c:\Users\jenil\OneDrive - smail.iitm.ac.in\Documents\CS6910-DL\wandb\run-20230218_102229-e0dr0bzo\logs\debug-internal.log
+2023-02-18 10:22:29,611 INFO    MainThread:21860 [wandb_init.py:init():532] calling init triggers
+2023-02-18 10:22:29,611 INFO    MainThread:21860 [wandb_init.py:init():538] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.02, 'architecture': 'CNN', 'dataset': 'CIFAR-100', 'epochs': 10}
+2023-02-18 10:22:29,611 INFO    MainThread:21860 [wandb_init.py:init():554] re-initializing run, found existing run on stack: psvrtynl
+2023-02-18 10:22:29,621 INFO    MainThread:21860 [wandb_run.py:_finish():1854] finishing run jenilsheth/A1/psvrtynl
+2023-02-18 10:22:29,624 INFO    MainThread:21860 [jupyter.py:save_history():449] not saving jupyter history
+2023-02-18 10:22:29,625 INFO    MainThread:21860 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-18 10:22:29,625 INFO    MainThread:21860 [wandb_init.py:_jupyter_teardown():420] cleaning up jupyter logic
+2023-02-18 10:22:29,626 INFO    MainThread:21860 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-02-18 10:22:29,626 INFO    MainThread:21860 [wandb_run.py:_restore():2066] restore
+2023-02-18 10:22:29,626 INFO    MainThread:21860 [wandb_run.py:_restore():2072] restore done
+2023-02-18 10:22:33,886 INFO    MainThread:21860 [wandb_run.py:_footer_history_summary_info():3442] rendering history
+2023-02-18 10:22:33,886 INFO    MainThread:21860 [wandb_run.py:_footer_history_summary_info():3474] rendering summary
+2023-02-18 10:22:33,892 INFO    MainThread:21860 [wandb_run.py:_footer_sync_info():3398] logging synced files
+2023-02-18 10:22:33,901 INFO    MainThread:21860 [wandb_init.py:init():588] starting backend
+2023-02-18 10:22:33,902 INFO    MainThread:21860 [wandb_init.py:init():592] setting up manager
+2023-02-18 10:22:33,906 INFO    MainThread:21860 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-02-18 10:22:33,909 INFO    MainThread:21860 [wandb_init.py:init():599] backend started and connected
+2023-02-18 10:22:33,925 INFO    MainThread:21860 [wandb_run.py:_label_probe_notebook():1203] probe notebook
+2023-02-18 10:22:33,925 INFO    MainThread:21860 [wandb_run.py:_label_probe_notebook():1213] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-02-18 10:22:33,925 INFO    MainThread:21860 [wandb_init.py:init():687] updated telemetry
+2023-02-18 10:22:34,012 INFO    MainThread:21860 [wandb_init.py:init():727] communicating run to backend with 60.0 second timeout
+2023-02-18 10:22:35,613 INFO    MainThread:21860 [wandb_run.py:_on_init():2134] communicating current version
+2023-02-18 10:22:35,679 INFO    MainThread:21860 [wandb_run.py:_on_init():2143] got version response 
+2023-02-18 10:22:35,679 INFO    MainThread:21860 [wandb_init.py:init():775] starting run threads in backend
+2023-02-18 10:22:35,903 INFO    MainThread:21860 [wandb_run.py:_console_start():2114] atexit reg
+2023-02-18 10:22:35,904 INFO    MainThread:21860 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-02-18 10:22:35,904 INFO    MainThread:21860 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-02-18 10:22:35,904 INFO    MainThread:21860 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-02-18 10:22:35,904 INFO    MainThread:21860 [wandb_init.py:init():817] run started, returning control to user process
+2023-02-18 10:22:35,908 INFO    MainThread:21860 [wandb_run.py:_finish():1854] finishing run jenilsheth/my-awesome-project/e0dr0bzo
+2023-02-18 10:22:35,909 INFO    MainThread:21860 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-02-18 10:22:35,909 INFO    MainThread:21860 [wandb_run.py:_restore():2066] restore
+2023-02-18 10:22:35,910 INFO    MainThread:21860 [wandb_run.py:_restore():2072] restore done
+2023-02-18 10:22:40,978 INFO    MainThread:21860 [wandb_run.py:_footer_history_summary_info():3442] rendering history
+2023-02-18 10:22:40,979 INFO    MainThread:21860 [wandb_run.py:_footer_history_summary_info():3474] rendering summary
+2023-02-18 10:22:40,989 INFO    MainThread:21860 [wandb_run.py:_footer_sync_info():3398] logging synced files
